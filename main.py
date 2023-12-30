@@ -19,3 +19,11 @@ def calculate_product(numbers_list: list):
 generatedList = generate_list(5, 7, 50)
 print(f"List: {generatedList}")
 print(f"Product: {calculate_product(generatedList)}")
+
+
+
+# Завдання 2: Напишіть функцію для знаходження мінімуму у списку цілих. Список передається як параметр.
+# Отриманий результат повертається із функції.
+# Можна виконати друге завдання одним рядком з використанням стандартної функції мінімуму
+
+print(f"Мінімум у списку цілих: {min(generatedList)}")
